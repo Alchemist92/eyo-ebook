@@ -47,19 +47,20 @@
    <div class="card card-body card-form">
      <h1><b>Interested In Taking My Online Course??</b></h1>
      <p class="lead">Fill The Fields below</p>
-     <form action="">
+     <form name="contact" method="POST" data-netlify="true">
      <div class="form-group">
-       <input type="text" id="firstname" class="form-control" placeholder="firstname">
+       <input type="text" id="firstname" name="firstname" class="form-control" placeholder="firstname">
      </div>
      <div class="form-group">
-      <input type="text" id="lastname" class="form-control" placeholder="lastname">
+      <input type="text" id="lastname" name="lastname" class="form-control" placeholder="lastname">
     </div>
     <div class="form-group">
-      <input type="text" id="phone" class="form-control" placeholder="phone">
+      <input type="text" id="email" name="email" class="form-control" placeholder="email">
     </div>
     <div class="form-group">
-      <input type="text" id="email" class="form-control" placeholder="email">
+      <input type="number" id="phone" name="phone" class="form-control" placeholder="phone">
     </div>
+    
     
       
   <button class="submit btn btn-primary btn-block"> Submit</button>
